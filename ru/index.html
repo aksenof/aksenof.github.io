@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="ru"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="ru"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="ru"> <!--<![endif]-->
+<head>
+	<!--- Basic Page Needs
+	================================================== -->
+	<meta charset="utf-8">
+	<title>Аксёнов Андрей</title>
+	<meta name="author" content="Aksenov Andrey">
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+	================================================== -->
+	<link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+	<link rel="stylesheet" href="css/media-queries.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<!-- Scripts
+	================================================== -->
+	<script src="js/modernizr.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/moment.min.js"></script>
+
+	<!-- Favicon
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
+
+</head>
+
+<body>
+	<!-- Header
+	================================================== -->
+	<header id="home">
+		<nav id="nav-wrap">
+			<a class="mobile-btn" href="#nav-wrap" title="Show navigation">Показать меню</a>
+			<a class="mobile-btn" href="#" title="Hide navigation">Скрыть меню</a>
+			<ul id="nav" class="nav">
+				<li class="current"><a class="smoothscroll" href="#home">Начало</a></li>
+				<li><a class="smoothscroll" href="#about">Обо мне</a></li>
+				<li><a class="smoothscroll" href="#resume">Резюме</a></li>
+				<li><a class="smoothscroll" href="#portfolio">Сертификаты</a></li>
+				<li><a class="smoothscroll" href="#inspiration">Вдохновение</a></li>
+				<li><a href="https://aksenof.github.io/ru/index.html">[RU]</a></li>
+				<li><a href="https://aksenof.github.io">[ENG]</a></li>
+			</ul> <!-- end #nav -->
+		</nav> <!-- end #nav-wrap -->
+
+		<div class="row banner">
+			<div class="banner-text">
+
+				<h1 class="responsive-headline"> <i> Аксёнов Андрей </i> </h1>
+				<h3>Привет. Меня зовут <span>Аксёнов Андрей</span>. Я - программист. <br>
+				И мне нравится, когда мои <span>идеи</span> превращаются 
+				в <span>алгоритмы</span> на языке <span>Python</span>. <br>
+				<a class="smoothscroll" href="#about">Листайте ниже</a>, чтобы
+				узнать <a class="smoothscroll" href="#about">обо мне</a> больше.
+				</h3>
+				<hr />
+
+				<ul class="social">
+					<li><a href="http://vk.com/aksenof"><i class="fa fa-vk"></i></a></li>
+					<li><a href="https://www.instagram.com/axenof"><i class="fa fa-instagram"></i></a></li>
+					<li><a href="http://www.facebook.com/aksenof.andrey"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="skype:Vivosvocoviv"><i class="fa fa-skype"></i></a></li>
+					<li><a href="https://github.com/aksenof?tab=repositories"><i class="fa fa-github"></i></a></li>
+				</ul>
+
+			</div>
+		</div>
+
+		<p class="scrolldown">
+			<a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+		</p>
+
+	</header> <!-- Header End -->
+
+	<!-- About Section
+	================================================== -->
+	<section id="about">
+		<div class="row">
+
+			<div class="three columns">
+				<img class="profile-pic"  src="images/profilepic.jpg" alt="" />
+			</div>
+
+			<div class="nine columns main-col">
+				<h2>Обо мне</h2>
+				<div class="story">
+					<p> &bull; Меня зовут Аксёнов Андрей. Мне <span> [age] </span>.<br>
+						&bull; Свою первую программу я написал на Паскале (Pascal ABC) <br> 
+						в школе, в 11 классе (2012-2013 гг.).<br>
+						&bull; Моим следующим языком програмирования стал C++. <br>
+						Я выучил основы C++ на первом курсе в <br>
+						Воронежском Государственном Университете <br>
+						Инженерных Технологий (ВГУИТ). <br>
+						&bull; В 2014 г. я изучал Delphi и написал на нём <br>
+						несколько программ в течение года. <br>
+						&bull; В 2015-2016 гг. мне стали интересны такие web-технологии, <br>
+						как: HTML, CSS, JS, SQL, ASP.NET.<br>
+						Я разработал сайт со своими фотографиями, песнями и стихами.<br>
+						Этот <a href="http://vivosvocoviv.hostfree.pw/default.html" target="_blank">сайт</a>
+						до сих пор доступен на сервере ВГУИТ. <br>
+						&bull; С сентября 2016 г. по настоящее время я программирую на Python. <br>
+						&bull; Подробнее о моих проектах <a class="smoothscroll" href="#resume">ниже</a>.
+					</p>
+				</div>
+
+				<script type="text/javascript">
+					age = moment().diff(moment('19950720', 'YYYYMMDD'), 'years');
+					$('.story > p > span').text(age);
+				</script>
+
+				<div class="row">
+
+					<div class="columns contact-details">
+						<h2>Связь со мной:</h2>
+						<p class="address">
+							<span>Аксёнов Андрей</span><br>
+							<span>+7(920)460-40-10</span><br>
+							<span>aksenov.andrey95@yandex.ru</span>
+						</p>
+					</div>
+
+					<div class="columns download">
+						<p>
+							<a href="https://drive.google.com/file/d/1PVmyCsKA3H-mpHPrtfXrP5-gBeeO08uS/view" 
+							class="button" target="_blank">
+								<i class="fa fa-download"></i>Скачать резюме</a>
+						</p>
+					</div>
+
+				</div> <!-- end row -->
+
+			</div> <!-- end .main-col -->
+
+		</div> <!-- end row -->
+
+	</section> <!-- About Section End-->
+
+	<!-- Resume Section
+	================================================== -->
+	<section id="resume">
+
+		<!-- Education
+		----------------------------------------------- -->
+		<div class="row education">
+
+			<div class="three columns header-col">
+				<h1><span>Образование</span></h1>
+			</div>
+
+			<div class="nine columns main-col">
+
+				<div class="row item">
+
+					<div class="twelve columns">
+
+						<h3>ВОРОНЕЖСКИЙ ГОСУДАРСТВЕННЫЙ УНИВЕРСИТЕТ ИНЖЕНЕРНЫХ ТЕХНОЛОГИЙ, ВОРОНЕЖ</h3>
+						<p class="info"> Бакалавриат <span>&bull;</span> <em class="date">2013-2017</em></p>
+						<p>
+							Специальность: 09.03.02 Информационные системы и технологии <br>
+							Факультет Управления и Информатики в Технологических Системах <br>
+							Тема ВКР: «Программное обеспечение определения цветовых характеристик 
+							уникального акта печати»
+						</p>
+					</div>
+
+				</div> <!-- item end -->
+
+				<div class="row item">
+
+					<div class="twelve columns">
+
+						<h3>УНИВЕРСИТЕТ ИТМО, САНКТ-ПЕТЕРБУРГ</h3>
+						<p class="info"> Магистратура <span>&bull;</span> <em class="date">2017-2019</em></p>
+						<p>
+							Специальность: 09.04.02 Информационные системы и технологии <br>
+							Факультет Инфокоммуникационных Технологий <br>
+							Тема Диссертации: «Автоматизация процесса перевода печатных книг 
+							в аудио-приложение для слабовидящих людей»
+						</p>
+
+					</div>
+
+				</div> <!-- item end -->
+
+			</div> <!-- main-col end -->
+
+		</div> <!-- End Education -->
+
+		<!-- Work
+		----------------------------------------------- -->
+		<div class="row work">
+
+			<div class="three columns header-col">
+				<h1><span>Мои проекты</span></h1>
+			</div>
+
+			<div class="nine columns main-col">
+
+				<div class="row item">
+
+					<div class="twelve columns">
+
+						<h3>Автоматизация процесса перевода печатных книг в аудио-приложение для слабовидящих людей</h3>
+						<p class="info">Python<span>&bull;</span> <em class="date">2017-2019</em></p>
+						<p>
+							GitHub: <a href="https://github.com/aksenof/itmo" target="_blank">
+							https://github.com/aksenof/itmo</a>
+						</p>
+
+					</div>
+
+				</div> <!-- item end -->
+
+				<div class="row item">
+
+					<div class="twelve columns">
+
+						<h3>Программное обеспечение определения цветовых характеристик уникального акта печати</h3>
+						<p class="info">Python<span>&bull;</span> <em class="date">2016-2017</em></p>
+						<p>
+							GitHub: <a href="https://github.com/aksenof/vsuet" target="_blank">
+							https://github.com/aksenof/vsuet</a>
+						</p>
+
+					</div>
+
+				</div> <!-- item end -->
+
+				<div class="row item">
+
+					<div class="twelve columns">
+
+						<h3>Информационная система нахождения оптимальных объемов перевозок между поставщиком и потребителем методом Северо-Западного угла</h3>
+						<p class="info">Python<span>&bull;</span> <em class="date">2016</em></p>
+						<p>
+							GitHub: <a href="https://github.com/aksenof/vsuet-projects/tree/master/northwest-method" 
+							target="_blank">
+							https://github.com/aksenof/vsuet-projects/tree/master/northwest-method</a>
+						</p>
+
+					</div>
+
+				</div> <!-- item end -->
+
+				<div class="row item">
+
+					<div class="twelve columns">
+
+						<h3>Оптимизация плана перевозок</h3>
+						<p class="info">Python<span>&bull;</span> <em class="date">2016</em></p>
+						<p>
+							GitHub: <a href="https://github.com/aksenof/vsuet-projects/tree/master/transportation-task" 
+							target="_blank">
+							https://github.com/aksenof/vsuet-projects/tree/master/transportation-task</a>
+						</p>
+
+					</div>
+
+				</div> <!-- item end -->
+
+				<div class="row item">
+
+					<div class="twelve columns">
+
+						<h3>Хороший текст</h3>
+						<p class="info">HTML, JS<span>&bull;</span> <em class="date">2016</em></p>
+						<p>
+							Сайт:  <a href="https://goodtext.github.io" 
+							target="_blank">
+							https://goodtext.github.io</a> <br>
+							GitHub: <a href="https://github.com/goodtext/goodtext.github.io" 
+							target="_blank">
+							https://github.com/goodtext/goodtext.github.io</a>
+						</p>
+
+					</div>
+
+				</div> <!-- item end -->
+
+			</div> <!-- main-col end -->
+
+		</div> <!-- End Work -->
+
+		<!-- Skills
+		----------------------------------------------- -->
+		<div class="row skill">
+
+			<div class="three columns header-col">
+				<h1><span>Мои навыки</span></h1>
+			</div>
+
+			<div class="nine columns main-col">
+				<p>Диаграмма моих СКИЛЛов: </p>
+					<div class="bars">
+
+						<ul class="skills">
+							<li><span class="bar-expand pascal"></span><em>Pascal/Delphi</em></li>
+							<li><span class="bar-expand cplus"></span><em>C++</em></li>
+							<li><span class="bar-expand python"></span><em>Python</em></li>
+							<li><span class="bar-expand html5"></span><em>HTML</em></li>
+							<li><span class="bar-expand css"></span><em>CSS</em></li>
+							<li><span class="bar-expand jquery"></span><em>Java Script & jQuery</em></li>
+						</ul>
+
+					</div><!-- end skill-bars -->
+
+			</div> <!-- main-col end -->
+
+		</div> <!-- End skills -->
+
+	</section> <!-- Resume Section End-->
+
+	<!-- Portfolio Section
+	================================================== -->
+	<section id="portfolio">
+
+		<div class="row">
+
+			<div class="twelve columns collapsed">
+
+				<h1>Сертификаты:</h1>
+
+				<!-- portfolio-wrapper -->
+				<div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+					<div class="columns portfolio-item"> <!-- item start -->
+						<div class="item-wrap">
+
+							<a href="#modal-01" title="">
+								<img alt="SoloLearn" src="images/portfolio/certificate1.jpg">
+								<div class="overlay">
+									<div class="portfolio-item-meta">
+										<h5>SoloLearn</h5>
+										<p>Python 3 Tutorial course</p>
+									</div>
+								</div>
+								<div class="link-icon"><i class="icon-plus"></i></div>
+							</a>
+
+						</div>
+					</div> <!-- item end -->
+
+					<div class="columns portfolio-item"> <!-- item start -->
+						<div class="item-wrap">
+
+							<a href="#modal-02" title="">
+								<img alt="SoloLearn" src="images/portfolio/certificate2.jpg">
+								<div class="overlay">
+									<div class="portfolio-item-meta">
+										<h5>English</h5>
+										<p>Certificate: Intermediate</p>
+									</div>
+								</div>
+								<div class="link-icon"><i class="icon-plus"></i></div>
+							</a>
+
+						</div>
+					</div> <!-- item end -->
+
+					<div class="columns portfolio-item"> <!-- item start -->
+						<div class="item-wrap">
+
+							<a href="#modal-03" title="">
+								<img alt="SoloLearn" src="images/portfolio/certificate3.jpg">
+								<div class="overlay">
+									<div class="portfolio-item-meta">
+										<h5>Dimploma</h5>
+										<p>VSUET</p>
+									</div>
+								</div>
+								<div class="link-icon"><i class="icon-plus"></i></div>
+							</a>
+
+						</div>
+					</div> <!-- item end -->
+
+					<div class="columns portfolio-item"> <!-- item start -->
+						<div class="item-wrap">
+
+							<a href="#modal-04" title="">
+								<img alt="SoloLearn" src="images/portfolio/certificate4.jpg">
+								<div class="overlay">
+									<div class="portfolio-item-meta">
+										<h5>VII Congress of Young Scientists</h5>
+										<p>ITMO University</p>
+									</div>
+								</div>
+								<div class="link-icon"><i class="icon-plus"></i></div>
+							</a>
+
+						</div>
+					</div> <!-- item end -->
+
+					<div class="columns portfolio-item"> <!-- item start -->
+						<div class="item-wrap">
+
+							<a href="#modal-05" title="">
+								<img alt="SoloLearn" src="images/portfolio/certificate5.jpg">
+								<div class="overlay">
+									<div class="portfolio-item-meta">
+										<h5>GeekBrains</h5>
+										<p>Basics of programming</p>
+									</div>
+								</div>
+								<div class="link-icon"><i class="icon-plus"></i></div>
+							</a>
+
+						</div>
+					</div> <!-- item end -->
+
+
+					<div class="columns portfolio-item"> <!-- item start -->
+						<div class="item-wrap">
+
+							<a href="#modal-06" title="">
+								<img alt="SoloLearn" src="images/portfolio/certificate6.jpg">
+								<div class="overlay">
+									<div class="portfolio-item-meta">
+										<h5>GeekBrains</h5>
+										<p>Python</p>
+									</div>
+								</div>
+								<div class="link-icon"><i class="icon-plus"></i></div>
+							</a>
+
+						</div>
+					</div> <!-- item end -->
+
+
+					<div class="columns portfolio-item"> <!-- item start -->
+						<div class="item-wrap">
+
+							<a href="#modal-07" title="">
+								<img alt="SoloLearn" src="images/portfolio/certificate7.jpg">
+								<div class="overlay">
+									<div class="portfolio-item-meta">
+										<h5>GeekBrains</h5>
+										<p>Python: First level</p>
+									</div>
+								</div>
+								<div class="link-icon"><i class="icon-plus"></i></div>
+							</a>
+
+						</div>
+					</div> <!-- item end -->
+
+					<div class="columns portfolio-item"> <!-- item start -->
+						<div class="item-wrap">
+
+							<a href="#modal-08" title="">
+								<img alt="SoloLearn" src="images/portfolio/certificate8.jpg">
+								<div class="overlay">
+									<div class="portfolio-item-meta">
+										<h5>GeekBrains</h5>
+										<p>JavaScript</p>
+									</div>
+								</div>
+								<div class="link-icon"><i class="icon-plus"></i></div>
+							</a>
+
+						</div>
+					</div> <!-- item end -->
+
+				</div> <!-- portfolio-wrapper end -->
+
+			</div> <!-- twelve columns end -->
+
+
+			<!-- Modal Popup
+			--------------------------------------------------------------- -->
+
+			<div id="modal-01" class="popup-modal mfp-hide"> <!-- modal-01 start -->
+
+				<img class="scale-with-grid" src="images/portfolio/modals/m-certificate1.jpg" alt="" />
+
+				<div class="description-box">
+					<h4>SoloLearn</h4>
+					<p>Certificate from the site <a href="https://www.sololearn.com/">sololearn.com</a> 
+						about the successful completion of the Python 3 Tutorial course
+					</p>
+					<span class="categories"><i class="fa fa-tag"></i>Python3, SoloLearn, Courses</span>
+				</div>
+
+				<div class="link-box">
+					<a href="images/portfolio/download/d-certificate1.jpg">Original</a>
+					<a class="popup-modal-dismiss">Close</a>
+				</div>
+
+			</div> <!-- modal-01 End -->
+
+			<div id="modal-02" class="popup-modal mfp-hide"> <!-- modal-02 start -->
+
+				<img class="scale-with-grid" src="images/portfolio/modals/m-certificate2.jpg" alt="" />
+
+				<div class="description-box">
+					<h4>English courses</h4>
+					<p>Certificate: Intermediate </p>
+					<span class="categories"><i class="fa fa-tag"></i>English, Courses</span>
+				</div>
+
+				<div class="link-box">
+					<a href="images/portfolio/download/d-certificate2.jpg">Original</a>
+					<a class="popup-modal-dismiss">Close</a>
+				</div>
+
+			</div> <!-- modal-02 End -->
+
+			<div id="modal-03" class="popup-modal mfp-hide"> <!-- modal-03 start -->
+
+				<img class="scale-with-grid" src="images/portfolio/modals/m-certificate3.jpg" alt="" />
+
+				<div class="description-box">
+					<h4>Dimploma</h4>
+					<p>Voronezh State University of Engineering Technologies</p>
+					<span class="categories"><i class="fa fa-tag"></i>Dimploma, VSUET</span>
+				</div>
+
+				<div class="link-box">
+					<a href="images/portfolio/download/d-certificate3.jpg">Original</a>
+					<a class="popup-modal-dismiss">Close</a>
+				</div>
+
+			</div> <!-- modal-03 End -->
+
+			<div id="modal-04" class="popup-modal mfp-hide"> <!-- modal-04 start -->
+
+				<img class="scale-with-grid" src="images/portfolio/modals/m-certificate4.jpg" alt="" />
+
+				<div class="description-box">
+					<h4>VII Congress of Young Scientists</h4>
+					<p>Certificate of participation in VII Congress of Young Scientists in ITMO University</p>
+					<span class="categories"><i class="fa fa-tag"></i>Congress, ITMO</span>
+				</div>
+
+				<div class="link-box">
+					<a href="images/portfolio/download/d-certificate4.jpg">Original</a>
+					<a class="popup-modal-dismiss">Close</a>
+				</div>
+
+			</div> <!-- modal-04 End -->
+
+			<div id="modal-05" class="popup-modal mfp-hide"> <!-- modal-05 start -->
+
+				<img class="scale-with-grid" src="images/portfolio/modals/m-certificate5.jpg" alt="" />
+
+				<div class="description-box">
+					<h4>GeekBrains test</h4>
+					<p>Certificate of testing on the Basics of Programming</p>
+					<span class="categories"><i class="fa fa-tag"></i>GeekBrains, Test, Programming</span>
+				</div>
+
+				<div class="link-box">
+					<a href="images/portfolio/download/d-certificate5.jpg">Original</a>
+					<a class="popup-modal-dismiss">Close</a>
+				</div>
+
+			</div> <!-- modal-05 End -->
+
+			<div id="modal-06" class="popup-modal mfp-hide"> <!-- modal-06 start -->
+
+				<img class="scale-with-grid" src="images/portfolio/modals/m-certificate6.jpg" alt="" />
+
+				<div class="description-box">
+					<h4>GeekBrains test</h4>
+					<p>Certificate of testing on the Python</p>
+					<span class="categories"><i class="fa fa-tag"></i>GeekBrains, Test, Python</span>
+				</div>
+
+				<div class="link-box">
+					<a href="images/portfolio/download/d-certificate6.jpg">Original</a>
+					<a class="popup-modal-dismiss">Close</a>
+				</div>
+
+			</div> <!-- modal-06 End -->
+
+			<div id="modal-07" class="popup-modal mfp-hide"> <!-- modal-07 start -->
+
+				<img class="scale-with-grid" src="images/portfolio/modals/m-certificate7.jpg" alt="" />
+
+				<div class="description-box">
+					<h4>GeekBrains test</h4>
+					<p>Certificate of testing on the Python, level 1</p>
+					<span class="categories"><i class="fa fa-tag"></i>GeekBrains, Test, Python</span>
+				</div>
+
+				<div class="link-box">
+					<a href="images/portfolio/download/d-certificate7.jpg">Original</a>
+					<a class="popup-modal-dismiss">Close</a>
+				</div>
+
+			</div> <!-- modal-07 End -->
+
+			<div id="modal-08" class="popup-modal mfp-hide"> <!-- modal-08 start -->
+
+				<img class="scale-with-grid" src="images/portfolio/modals/m-certificate8.jpg" alt="" />
+
+				<div class="description-box">
+					<h4>GeekBrains test</h4>
+					<p>Certificate of testing on the JavaScript</p>
+					<span class="categories"><i class="fa fa-tag"></i>GeekBrains, Test, JavaScript</span>
+				</div>
+
+				<div class="link-box">
+					<a href="images/portfolio/download/d-certificate8.jpg">Original</a>
+					<a class="popup-modal-dismiss">Close</a>
+				</div>
+
+			</div> <!-- modal-08 End -->
+
+		</div> <!-- row End -->
+
+	</section> <!-- Portfolio Section End-->
+
+	<!-- Inspiration Section
+	================================================== -->
+	<section id="inspiration">
+
+		<div class="text-container">
+
+			<div class="row">
+
+				<div class="two columns header-col">
+
+					<h1><span>Любимые цитаты:</span></h1>
+
+				</div>
+
+				<div class="ten columns flex-container">
+
+					<div class="flexslider">
+
+						<ul class="slides">
+
+							<li>
+								<blockquote>
+									<p> 
+										"Если вы можете что-то представить, <br>
+										вообразить - вы можете сделать это!"
+									</p>
+									<cite>Walt Disney</cite>
+								</blockquote>
+							</li> <!-- slide ends -->
+
+							<li>
+								<blockquote>
+									<p>
+										"Свобода - единственная вещь, <br>
+										которую вы не сможете получить, <br>
+										если не дадите её сами"
+									</p>
+									<cite>U. White</cite>
+								</blockquote>
+							</li> <!-- slide ends -->
+
+						</ul>
+
+					</div> <!-- div.flexslider ends -->
+
+				</div> <!-- div.flex-container ends -->
+
+			</div> <!-- row ends -->
+
+		</div>  <!-- text-container ends -->
+
+		<br>
+		<br>
+
+	</section> <!-- Inspiration Section End-->
+
+	<!-- footer
+	================================================== -->
+	<footer>
+
+		<div class="row">
+
+			<div class="twelve columns">
+
+				<ul class="social-links">
+					<li><a href="http://vk.com/aksenof"><i class="fa fa-vk"></i></a></li>
+					<li><a href="https://www.instagram.com/axenof"><i class="fa fa-instagram"></i></a></li>
+					<li><a href="http://www.facebook.com/aksenof.andrey"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="skype:Vivosvocoviv"><i class="fa fa-skype"></i></a></li>
+					<li><a href="https://github.com/aksenof?tab=repositories"><i class="fa fa-github"></i></a></li>
+				</ul>
+
+				<ul class="copyright">
+					<li>&copy; Copyright 2019 CeeVee</li>
+					<li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>   
+				</ul>
+
+			</div>
+
+			<div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+		</div>
+
+	</footer> <!-- Footer End-->
+
+	<!-- Java Script
+	================================================== -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+	<script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+	<script src="js/jquery.flexslider.js"></script>
+	<script src="js/waypoints.js"></script>
+	<script src="js/jquery.fittext.js"></script>
+	<script src="js/magnific-popup.js"></script>
+	<script src="js/init.js"></script>
+
+</body>
+
+</html>
