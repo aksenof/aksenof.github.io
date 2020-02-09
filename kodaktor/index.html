@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Aksenov Andrey</title>
+    <meta name="author" content="Aksenov Andrey">
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/moment.min.js"></script>
+    <link rel="shortcut icon" href="favicon.png" >
+</head>
+<body>
+    <div style="text-align: center;">
+        <div class="date_today">
+            <p> [ <span> [today] </span> ] </p>
+        </div>
+        <div class="labs">
+        <h1>Аксёнов Андрей Александрович<h1>
+        <p>Лабораторная работа №1: <a href="https://kodaktor.ru/g/click_9475c" target="_blank">Результат</a> ; 
+        <a href="https://kodaktor.ru/click_9475c" target="_blank">Код + Результат</a>
+        </p>
+        </div>
+    </div>
+    <script>
+        today = moment().format('DD.MM.YYYY');
+        $('.date_today > p > span').text(today);
+    </script>
+</body>
+</html>
