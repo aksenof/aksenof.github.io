@@ -12,15 +12,16 @@
             <p> [ <span> [today] </span> ] </p>
         </div>
         <div class="labs">
-        <h1>Аксёнов Андрей Александрович<h1>
+        <h1> Аксёнов Андрей Александрович </h1>
+        <hr color="Red" />
         <p>Лабораторная работа №1: <a href="https://kodaktor.ru/g/click_9475c" target="_blank">Результат</a> ; 
         <a href="https://kodaktor.ru/click_9475c" target="_blank">Код + Результат</a>
         </p>
         </div>
+        <script type="text/javascript">
+            today = moment().format('DD.MM.YYYY');
+            $('.date_today > p > span').text(today);
+        </script>
     </div>
-    <script>
-        today = moment().format('DD.MM.YYYY');
-        $('.date_today > p > span').text(today);
-    </script>
 </body>
 </html>
