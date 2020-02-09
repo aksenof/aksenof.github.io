@@ -13,6 +13,10 @@
         <div class="date_today">
             <p> [ <span> [today] </span> ] </p>
         </div>
+	<script type="text/javascript">
+	    today = moment().format('DD.MM.YYYY');
+            $('.date_today > p > span').text(today);
+        </script>
         <div class="labs">
         <h1> Аксёнов Андрей Александрович </h1>
         <hr color="Red" />
@@ -20,10 +24,6 @@
         <a href="https://kodaktor.ru/click_9475c" target="_blank">Код + Результат</a>
         </p>
         </div>
-        <script type="text/javascript">
-            today = moment().format('DD.MM.YYYY');
-            $('.date_today > p > span').text(today);
-        </script>
     </div>
 </body>
 </html>
