@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root [
+<!ELEMENT root (student, student)>
+<!ELEMENT student (rating+)>
+<!ELEMENT rating (#PCDATA)>
+<!ATTLIST rating discipline CDATA #REQUIRED>
+<!ATTLIST student name CDATA #REQUIRED>
+]>
+<root>
+  <student name="Andrey">
+    <rating discipline="Physics">87</rating>
+    <rating discipline="Chemistry">93</rating>
+  </student>
+  <student name="Anna">
+    <rating discipline="Maths">95</rating>
+  </student>
+</root>
