@@ -1,0 +1,43 @@
+<html>
+ <head><script src="/j/out"></script><script src="/socket.io/socket.io.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+   <title>BABL_001</title>
+   <meta charset="utf-8">
+   <meta name="author" content="Aksenov Andrey">
+   <link rel="stylesheet" href="/css/board2">
+   <link rel="stylesheet" href="/css/highcss_atom">
+ </head>
+ <body>
+   <script src="/j/dblttl"></script> <script src="/high.js"></script>
+<script type="text/babel">
+class Human {
+    firstname = undefined;
+    lastname = undefined;
+    getFullName() {
+        return this.firstname + ' ' + this.lastname;
+    }
+}
+
+const human1 = new Human();
+human1.firstname = 'Elijah';
+human1.lastname = 'Wood';
+Out.log(human1.getFullName());
+
+class Student extends Human {
+    firstname = undefined;
+    lastname = undefined;
+    recordbooknumber = null;
+
+    get getRecordBookNumber() {
+        return this.recordbooknumber;
+    }
+}
+
+const student1 = new Student();
+student1.firstname = 'Tatiana';
+student1.lastname = 'Saint';
+student1.recordbooknumber = 344333;
+Out.log(student1.getRecordBookNumber);
+</script>  
+<p>Автор: Аксёнов Андрей</p>
+ </body>
+</html>
