@@ -1,0 +1,41 @@
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Aksenov Andrey">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+</head>
+<body>
+<div>
+    Plain Text: <input type="text" id="inp" value="">
+    <button type="button" id="bt" onclick="SHA_1_HASH()">sha1</button>
+</div>
+<script type="text/javascript">
+    function SHA_1_HASH() {
+        const str = document.getElementById("inp").value;
+        const buffer = new TextEncoder("utf-8").encode(str);
+        return crypto.subtle.digest("SHA-1", buffer).then(
+            function (hash) {
+                document.getElementById("inp").value = hex(hash)
+            }
+        );
+    }
+    function hex(buffer) {
+        let hexCodes = [];
+        let view = new DataView(buffer);
+        for (let i = 0; i < view.byteLength; i += 4) {
+            // Using getUint32 reduces the number of iterations needed (we process 4 bytes each time)
+            const value = view.getUint32(i);
+            // toString(16) will give the hex representation of the number without padding
+            const stringValue = value.toString(16);
+            // We use concatenation and slice for padding
+            const padding = '00000000';
+            const paddedValue = (padding + stringValue).slice(-padding.length);
+            hexCodes.push(paddedValue);
+        }
+        return hexCodes.join("");
+    }
+</script>
+<p>Автор: Аксёнов Андрей</p>
+</body>
+
+</html>
