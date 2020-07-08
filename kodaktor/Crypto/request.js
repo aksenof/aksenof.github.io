@@ -34,5 +34,5 @@ request.post(url, {
     headers: {
         'Content-Type': 'multipart/form-data',
     },
-}, ((error, response, body) => 'https://raw.githubusercontent.com/rukivbruki/ITMO_Web_Portfolio/master/Crypto/message'))
+}, ((error, response, body) => 'https://raw.githubusercontent.com/aksenof/aksenof.github.io/blob/master/kodaktor/Crypto/message'))
     .then((response) => console.log(response));
