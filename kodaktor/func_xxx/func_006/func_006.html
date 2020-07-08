@@ -1,0 +1,30 @@
+<html>
+ <head><script src="/j/out"></script><link rel="stylesheet" href="/css/board2">
+    <script src="//kodaktor.ru/babel6.26.0.js"></script>
+  <title>FUNC-006</title>
+  <meta charset="utf-8">
+  <meta name="author" content="Aksenov Andrey">
+ </head>
+<body> <script src="/j/dblttl"></script>
+<script src="https://cdn.jsdelivr.net/npm/@babel/plugin-proposal-function-bind@7.2.0/lib/index.js" integrity="sha256-MI7ZzZiUVb7qraA9ETnf5M7FeLF27n+Jfa30YrcI568=" crossorigin="anonymous"></script>
+   <script>console.clear();</script> 
+  <script type="text/babel" data-presets="stage-0">{    
+(function(){
+    const square = function (){ return this * this; };
+    Out.log('Пока не работает!'); 
+    
+    // используйте слово this и оператор двойного двоеточия
+    // чтобы вызов square вернул 25
+    // для этого добавьте нужный атрибут в этот элемент script
+    
+    /* ES7 */
+    Out.log(this::square());
+    /* ES6 */
+    // Which could be written in ES6 as:
+    //Out.log(square.bind(this)());
+    
+}.bind(5))();
+   }</script>  
+  <p>Автор: Аксёнов Андрей</p>
+ </body>
+</html>
